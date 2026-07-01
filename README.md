@@ -2,7 +2,7 @@
 
 A Python cybersecurity project for analyzing PCAP network traffic, identifying suspicious connections, and documenting indicators of compromise.
 
-## Planned Features
+## Features
 
 - Read `.pcap` and `.pcapng` files
 - Count network protocols
@@ -27,6 +27,6 @@ This project is intended for educational, defensive, and authorized cybersecurit
 
 The analyzer was tested using a safely generated sample PCAP containing DNS traffic, normal web traffic, unusual destination ports, and simulated port-scanning activity.
 
-The tool successfully detected a possible port scan from `192.168.1.50` contacting 25 unique destination ports.
+The tool successfully detected simulated port-scanning activity involving 25 unique destination ports.
 
 ![PCAP analysis test](image.png)
